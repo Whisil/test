@@ -1,4 +1,9 @@
 /* reset*/
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 div, span, p, a, img, i, ol, ul, li, form, footer, header, 
 menu, nav, section{
 	margin: 0;
