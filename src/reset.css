@@ -19,6 +19,11 @@ body{
     background: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+    margin: 0;
+}
+button{
+    outline: none;
+    border: 0;
 }
 button:active, button:focus {
     outline: none;
