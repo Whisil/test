@@ -31,14 +31,48 @@ new Splide( '.splide', {
 
 
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
+    $(".blog-owl").owlCarousel({
+        loop: false,
+        responsive: {
+            0:{
+
+            },
+            300:{
+                center: true,
+                items: 2,
+                margin: 0,
+                startPosition: 1
+            },
+            600:{
+                items: 2,
+                
+            },
+            1240:{
+                items: 3,
+
+            }
+        }
+    });
 });
 
 
 
 $(document).ready(function(){
-    $(".brands__owl-carousel").owlCarousel();
+    $('.brands-slider').slick({
+        slidesToShow: 5,
+        arrows: false,
+        infinite: false,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+        ]
+    });
 });
+      
 
 
 
@@ -48,6 +82,26 @@ const swiper = new Swiper('.swiper-container', {
     loop: true,
     slidesPerView: 6,
     spaceBetween: 0,
+    breakpoints: {
+        0:{
+            slidesPerView: 3,
+        },
+        800: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+        1150: {
+            slidesPerView: 4,
+            spaceBetween: 10
+        },
+        1350:{
+            slidesPerView: 5,
+        },
+        1500:{
+            slidesPerView: 6, 
+              
+        }
+    },
   
 
   
