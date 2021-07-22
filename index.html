@@ -8,7 +8,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 <link rel="stylesheet" href="/src/owl/owl.carousel.min.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -25,12 +25,17 @@
 
         <div class="container">
             <nav class="menu">
-                <div class="menu__adaptive">
+
+
+                <div class="mobile-nav_btn">
+                    <p>Menu</p>
 
                 </div>
-                <div class="menu__logo">
+
+
+                <a href="#" class="menu__logo">
                     <img src="/vendors/images/logo.png" alt="coffeeface">
-                </div>
+                </a>
                 <ul class="menu__links">
                     <li class="menu__links_item"><a href="#">Home</a></li>
                     <li class="menu__links_item"><a href="#">Shop</a></li>
@@ -38,12 +43,51 @@
                     <li class="menu__links_item"><a href="#">What is Coffeeface</a></li>
                     <li class="menu__links_item"><a href="#">Contact</a></li>
                 </ul>
-                <a class="menu__bag" href="#">
-                    <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
-                      </svg>
-                </a>
+                <div class="menu__right">
+                    <div class="menu__search">
+                        <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="5.63636" cy="5.63636" r="4.98636" stroke="black" stroke-width="1.3"/>
+                            <path d="M9.39392 9.39404L15.5 15.5001" stroke="black" stroke-width="1.3"/>
+                        </svg>
+                            
+                    </div>
+                    <a class="menu__bag" href="#">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                          </svg>
+                    </a>
+                </div>
+
             </nav>
+        </div>
+
+
+        <div class="mobile-overlay"></div>
+
+        <div class="mobile-nav">
+            <div class="mobile-nav_top">
+
+                <div class="mobile__close-btn">
+                    <span class="close_btn__line">
+                        
+                    </span>
+                    <span class="close_btn__line">
+        
+                    </span>
+                </div>
+            </div>
+            <div class="mobile-nav_middle">
+                <ul class="mobile-links">
+                    <li class="mobile-link__name"><a href="#">Home</a></li>
+                    <li class="mobile-link__name"><a href="#">Shop</a></li>
+                    <li class="mobile-link__name"><a href="#">About</a></li>
+                    <li class="mobile-link__name"><a href="#">What is Coffeeface</a></li>
+                    <li class="mobile-link__name"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <a href="" class="mobile-nav_bottom">
+                <img src="/vendors/images/logo.png" alt="coffeeface">
+            </a>
         </div>
         
         <section class="header-info">
@@ -264,7 +308,7 @@
 
 
     <section class="blog-section">
-
+        <p class="swipe-hint">Swipe <img src="/vendors/images/inactive-arrow.svg" alt=""></p>
         <div class="container">
             <img src="/vendors/images/blog-bg.png" class="blog-bg" alt="">
             <div class="blog__aloe-pic">
@@ -278,7 +322,7 @@
                 <div class="blog__slider_item">
                     <a href="#" class="blog__slide_pic">
                         <img src="/vendors/images/blog-1.png" alt="">
-                        <div class="blog-pic__filter"></div>
+
                     </a>
                     <div class="blog__slide_title">
                         Lorem ipsum, or lipsum as it is sometimes<br> known, is dummy text used in laying out print
@@ -288,7 +332,7 @@
                 <div class="blog__slider_item">
                     <a href="#" class="blog__slide_pic">
                         <img src="/vendors/images/blog-2.png" alt="">
-                        <div class="blog-pic__filter"></div>
+
                     </a>
                     <div class="blog__slide_title">
                         Lorem ipsum, or lipsum as it is sometimes<br> known, is dummy text used in laying out print
@@ -298,7 +342,7 @@
                 <div class="blog__slider_item">
                     <a href="#" class="blog__slide_pic">
                         <img src="/vendors/images/blog-3.png" alt="">
-                        <div class="blog-pic__filter"></div>
+
                     </a>
                     <div class="blog__slide_title">
                         Lorem ipsum, or lipsum as it is sometimes<br> known, is dummy text used in laying out print
@@ -418,17 +462,17 @@
                     <div class="footer__nav_menu">
                         <ul class="footer_menu__left">
                             <li class="menu__left_item">
-                                <a href="#" class="menu__left_item">
+                                <a href="#">
                                     Home page
                                 </a>
                             </li>
                             <li class="menu__left_item">
-                                <a href="#" class="menu__left_item">
+                                <a href="#">
                                     About coffeeface
                                 </a>
                             </li>
                             <li class="menu__left_item">
-                                <a href="#" class="menu__left_item">
+                                <a href="#">
                                     Coffeeface the Community
                                 </a>
                             </li>
@@ -437,19 +481,19 @@
 
                         <ul class="footer_menu__right">
                             <li class="menu__right_item">
-                                <a href="#" class="menu__left_item">
+                                <a href="#">
                                     Privacy Policy
                                 </a>
                             </li>
                             <li class="menu__right_item">
-                                <a href="#" class="menu__left_item">
+                                <a href="#">
                                     Shipping-Terms
                                 </a>
                             </li>
                             <li class="menu__right_item">
-                                <a href="#" class="menu__left_item">
-                                    Contact Us
-                                </a>
+
+                                <a href="">Contact Us</a>
+
                             </li>
                         </ul>
                     </div>
