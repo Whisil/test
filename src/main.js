@@ -64,7 +64,14 @@ $(document).ready(function(){
                   slidesToShow: 2,
                   slidesToScroll: 2
                 }
-              },
+            },
+            {
+                breakpoint: 0,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2
+                }
+            },
         ]
     });
 });
@@ -141,26 +148,6 @@ overlay.addEventListener('click', function(){
     overlayClose();
     setTimeout(() => overlay.style.display = 'none', 320);
 });
-// const menubtn = document.querySelector('#menuBtn');
-// const adaptiveMenu = document.querySelector('.menu__adaptive-links');
 
-// function openMenu(){
-//     adaptiveMenu.style.display ="block";
-// }
-// function closeMenu(){
-//     adaptiveMenu.style.display = "none";
-// }
-
-// menubtn.addEventListener('click', () => {
-//     let i = 1;
-//     i++;
-
-//     if(i % 1){
-//         setTimeout(closeMenu(), 220);
-//     } else {
-//         openMenu();
-//     }
-    
-// })
 
   

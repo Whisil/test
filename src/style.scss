@@ -1519,6 +1519,7 @@ header{
                 }
             }
             @media screen and (max-width: 480px){
+                height: 90%;
                 .owl-stage-outer{
                     top: -55px;
                     .owl-stage{
@@ -1702,14 +1703,11 @@ header{
                         input{
                             margin: 0 auto;
                             width: 100%;
-                            padding-right: auto;
-                            padding-left: auto;
+
                             margin-bottom: 10px;
                         }
                         button{
                             width: 100%;
-                            padding-right: auto;
-                            padding-left: auto;
                             margin: 0 auto;
                         }
                     }

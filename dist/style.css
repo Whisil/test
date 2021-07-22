@@ -1632,6 +1632,9 @@ header .header-info .container .header-info__text .header-info__btn button:hover
 }
 
 @media screen and (max-width: 480px) {
+  .blog-section .container .owl-carousel {
+    height: 90%;
+  }
   .blog-section .container .owl-carousel .owl-stage-outer {
     top: -55px;
   }
@@ -1830,14 +1833,10 @@ header .header-info .container .header-info__text .header-info__btn button:hover
   .subscribe-section .container .inner-container .subscribe__form form input {
     margin: 0 auto;
     width: 100%;
-    padding-right: auto;
-    padding-left: auto;
     margin-bottom: 10px;
   }
   .subscribe-section .container .inner-container .subscribe__form form button {
     width: 100%;
-    padding-right: auto;
-    padding-left: auto;
     margin: 0 auto;
   }
   .subscribe-section img {
