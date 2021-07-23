@@ -1114,10 +1114,12 @@ header .header-info .container .header-info__text .header-info__btn button:hover
   }
   .how-to .how-to__bg_signature {
     position: absolute;
-    font-size: 282px;
+    font-size: 250px;
     white-space: nowrap;
-    line-height: 412px;
+    line-height: 200px;
     margin: 0 auto;
+    top: 0px;
+    max-width: 100%;
     left: 0;
     right: 0;
   }
