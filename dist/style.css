@@ -1221,6 +1221,8 @@ header .header-info .container .header-info__text .header-info__btn button:hover
   -webkit-border-radius: 50%;
           border-radius: 50%;
   opacity: 1;
+  width: unset;
+  height: unset;
 }
 
 .testimonials-section .splide__arrows button {
