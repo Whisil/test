@@ -1413,7 +1413,7 @@ header .header-info .container .header-info__text .header-info__btn button:hover
   }
   .testimonials-section .splide__arrows .splide__arrow--prev {
     top: 6%;
-    left: 2%;
+    left: 6%;
   }
   .testimonials-section .splide__track {
     max-width: 90%;
