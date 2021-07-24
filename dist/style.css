@@ -1408,11 +1408,9 @@ header .header-info .container .header-info__text .header-info__btn button:hover
 
 @media screen and (max-width: 500px) {
   .testimonials-section .splide__arrows .splide__arrow--next {
-    top: 6%;
     right: 6%;
   }
   .testimonials-section .splide__arrows .splide__arrow--prev {
-    top: 6%;
     left: 6%;
   }
   .testimonials-section .splide__track {
