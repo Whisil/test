@@ -383,12 +383,12 @@ header{
                         text-align: center;
                         font-family: "Poppins";
                         color: #ffff;
-                        background-color:#000;
+                        background-color:rgb(0, 0, 0);
                         padding: 23px 120px;
-                        transition: opacity .2s ease-in-out;
+                        transition: background-color .2s ease-in-out;
                         &:hover{
-                            opacity: 0.7;
-                            transition: opacity .2s ease-in-out;
+                            background-color: rgba(0,0,0, 0.7);
+                            transition: background-color .2s ease-in-out;
                         }
                     }
                 }
@@ -443,10 +443,10 @@ header{
 
                     .header-info__btn{
                         button{
-                            opacity: 0.35;
+                            background-color: rgba(0, 0, 0, 0.35);
 
                             &:hover{
-                                opacity: 1;
+                                background-color: rgba(0, 0, 0, 1);
                             }
                         }
                         
@@ -972,6 +972,8 @@ header{
         font-weight: 400;
         text-align: center;
         opacity: 7%;
+        -moz-opacity: 0.07;
+        -khtml-opacity: 0.07;
         position: relative;
         top: -80px;
         max-width: 100%;
@@ -1027,7 +1029,7 @@ header{
         .how-to__bg_signature{
             position: absolute;
             font-size: 250px;
-            white-space: nowrap;
+            white-space: unset;
             line-height: 200px;
             margin: 0 auto;
             top: 0px;
@@ -1115,7 +1117,7 @@ header{
                 background-color: $cBrown;
                 position: relative;
                 top: -25px;
-                left: -23px;
+                left: -21px;
             }
         }
         .splide__arrow--prev{
@@ -1129,7 +1131,7 @@ header{
                 background-color: $cBrown;
                 position: relative;
                 top: -25px;
-                left: 43px;
+                left: 41px;
             }
         }
     }
